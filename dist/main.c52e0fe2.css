@@ -1,22 +1,22 @@
 @font-face {
   font-family: "Open Sans";
   font-weight: 700;
-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  src: url("/OpenSans-Bold.81f0cd2d.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 600;
-  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("/OpenSans-SemiBold.492874b3.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 400;
-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("/OpenSans-Regular.4f32e784.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 300;
-  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+  src: url("/OpenSans-Light.8e8a69fc.ttf") format("truetype");
 }
 
 html {
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-image: url("../img/playstation-pattern.png");
+  background-image: url("/playstation-pattern.c158e114.png");
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
@@ -86,16 +86,19 @@ body {
   flex-direction: column;
 }
 
+
 .main-container .main .right .title {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-  color: #3498db;
+  color: #000;
   letter-spacing: 0;
   line-height: 28px;
   font-weight: 600;
   font-style: normal;
   word-break: break-word;
+  display: flex;
+  flex-direction: row;
 }
 
 .main-container .main .right .body {
@@ -123,3 +126,5 @@ body {
   padding: 20px 0;
   font-size: 14px;
 }
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */

@@ -1,10 +1,14 @@
 {
-  "name": " ",
+  "name": "code_vector_homepage",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "description": "The Code Vector Homepage",
+  "keywords": [
+    "Code",
+    "Vector",
+    "Homepage"
+  ],
   "license": "",
-  "author": "",
+  "author": "Edward Wright",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -12,6 +16,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "caniuse-lite": "^1.0.30001165",
+    "elliptic": ">=6.5.3",
+    "lodash": ">=4.17.19",
+    "node-forge": ">=0.10.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
   }
 }
