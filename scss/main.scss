@@ -1,10 +1,10 @@
 @import "normalize.css/normalize.css";
 
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 700;
-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
-}
+// @font-face {
+//   font-family: "Open Sans";
+//   font-weight: 700;
+//   src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+// }
 @font-face {
   font-family: "Open Sans";
   font-weight: 600;
@@ -15,11 +15,11 @@
   font-weight: 400;
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 300;
-  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
-}
+// @font-face {
+//   font-family: "Open Sans";
+//   font-weight: 300;
+//   src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+// }
 
 html {
   width: 100%;
@@ -93,7 +93,6 @@ body {
 
       .title {
         font-size: 32px;
-        font-weight: 700;
         text-align: center;
         color: #000;
         letter-spacing: 0;
@@ -113,8 +112,6 @@ body {
         clear: left;
         font-style: normal;
         word-break: break-word;
-        font-weight: 400;
-
         display: block;
       }
     }
